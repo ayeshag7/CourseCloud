@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTitle } from "../../hooks/useTitle";
 import { ProductCard } from "../../components/Elements/ProductCard";
 import { FilterBar } from "./components/FilterBar";
-import { useTitle } from "../../hooks/useTitle";
 import { useFilter } from "../../context/filterContext";
 import { getProductList } from "../../services";
 
@@ -11,6 +11,7 @@ export const ProductList = () => {
     const {productList, initializeProductList} = useFilter();
     const [show, setShow] = useState(false);
     const search = useLocation().search;
+    //Utilizing URLSearchParams
     const searchTerm = new URLSearchParams(search).get("q");
 
     useEffect(() => {
