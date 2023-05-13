@@ -4,9 +4,9 @@ import { useTitle } from "../hooks/useTitle";
 import { register } from "../services";
 
 export const Register = () => {
-  useTitle("Register")
 
   const navigate = useNavigate();
+  useTitle("Register")
 
   const handleRegister = async function (event) {
     event.preventDefault();
