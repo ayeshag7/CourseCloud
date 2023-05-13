@@ -15,6 +15,7 @@ Users must also register and login to access certain features and functionality.
 ## Features and Functionality
 * Browse through courses.
 * View their details.
+* Search for a particular course.
 * Add the instock courses to the cart.
 * Register and Login to access the cart and dashboard.
 * Remove courses from the cart.
@@ -39,3 +40,7 @@ npm install
 ```
 npm start
 ```
+
+## Project Demo
+View the project deployed on Netlify here:
+https://coursecloud-iq.netlify.app/
