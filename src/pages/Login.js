@@ -5,8 +5,10 @@ import { useRef } from "react";
 import { login } from "../services";
 
 export const Login = () => {
-    useTitle("Login")
+    
     const navigate = useNavigate();
+
+    useTitle("Login")
 
     const email = useRef();
     const password = useRef();
