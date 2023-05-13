@@ -19,7 +19,7 @@ export const Register = () => {
       const data = await register(authDetail);
       data.accessToken ? navigate("/products") : toast.error(data);
     }catch(error){
-      toast.error(error.message, {closeButton: true, position: "bottom-center"});
+      toast.error("Information not correct!", {closeButton: true, position: "bottom-center"});
     }
 
   };

@@ -13,7 +13,7 @@ export const FeaturedProducts = () => {
         const data = await getFeaturedList();
         setFeaturedCourses(data);
       } catch(error) {
-        toast.error(error.message, {closeButton: true, position: "bottom-center" });
+        toast.error("Failed to fetch!", {closeButton: true, position: "bottom-center" });
       }
     }
     fetchFeaturedCourses();
