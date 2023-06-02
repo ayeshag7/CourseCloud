@@ -43,4 +43,5 @@ npm start
 
 ## Project Demo
 View the project deployed on Netlify here:
+<br>
 https://coursecloud-iq.netlify.app/
