@@ -45,3 +45,6 @@ npm start
 View the project deployed on Netlify here:
 <br>
 https://coursecloud-iq.netlify.app/
+
+# Note:
+Due to issues with the hosting of the backend server for Course Cloud, some functionality maybe unavailable. Hold by until the hosting is shifted to another platform. 
