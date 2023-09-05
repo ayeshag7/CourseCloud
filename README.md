@@ -41,6 +41,8 @@ npm install
 npm start
 ```
 
+This should start a server at your localhost.
+
 ## Project Demo
 View the project deployed on Netlify here:
 <br>
